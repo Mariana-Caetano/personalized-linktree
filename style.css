@@ -151,10 +151,6 @@ body {
       align-items: center;
   }
 
-  .circle {
-    
-  }
-
   .profile-pic {
     width: 40%;
     margin: 15px 0 20px 125px;
@@ -163,6 +159,42 @@ body {
   .container {
     width:85%;
     margin: 30px ;
+  }
+
+  #circle1 {
+    height:120px; width:120px;
+    top:-50px; left:-10px;
+    animation:amimation1 5s ease-in-out -2s infinite both;
+  }
+
+  #circle2 {
+    height:160px; width:160px;
+    background: linear-gradient(rgba(255,120,120,0.75), rgba(255,100,120,0.9));
+    right:-80px;top:0;
+    z-index:2;
+    animation:amimation1 8s ease-in-out -4s infinite both;
+  }
+  #circle3 {
+    height:60px; width:60px;
+    top:195px; right:-45px;
+    animation:amimation1 9s ease-in-out 0s infinite both;
+  }
+  #circle4 {
+    height:95px; width:95px;
+    top:100px; left:-50px;
+    animation:amimation1 7s ease-in-out -1s infinite both;
+  }
+  #circle5 {
+    background: linear-gradient(rgba(255,120,120,0.9), rgba(255,100,120,0.75));
+    height:50px; width:50px;
+    left:0; top:50vh;
+    animation:amimation1 10s ease-in-out -3s infinite both;
+  }
+
+  #circle6 {
+    height:95px; width:95px;
+    left:70px; bottom:70px;
+    animation:amimation1 10s ease-in-out -6s infinite both;
   }
 
  }
