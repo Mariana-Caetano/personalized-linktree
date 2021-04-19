@@ -142,3 +142,27 @@ body {
     }
  
  }
+
+ @media (max-width: 479px) {
+
+  body {
+      display: block;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .circle {
+    
+  }
+
+  .profile-pic {
+    width: 40%;
+    margin: 15px 0 20px 125px;
+  }
+
+  .container {
+    width:85%;
+    margin: 30px ;
+  }
+
+ }
